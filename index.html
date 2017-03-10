@@ -54,7 +54,7 @@
                         $('#' + el + '-table tbody').append(row_html);
                     }
 
-                    $('#' + el + '-table').DataTable({ "paging": false });
+                    $('#' + el + '-table').DataTable({ "paging": false, "searching": false });
                 });
 
                 $('#search').keyup(function() {
