@@ -36,6 +36,7 @@ function createTable(data, el) {
 
         $('button[type=reset]').click(function() {
             tbl.DataTable().search('').draw();
+            $('#search').focus();
         });
     });
 }
