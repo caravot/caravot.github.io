@@ -36,7 +36,6 @@ function createTable(data, el, cols_filter) {
                 this.api().columns().every(function() {
                     var column = this;
                     var columnIdx = this.index();
-                    console.log(cols_filter, cols_filter.indexOf(columnIdx));
                     if (cols_filter.indexOf(columnIdx) != -1) {
                         var select = $('<br /><select><option value=""></option></select>')
                             .appendTo($(column.footer()).empty())
