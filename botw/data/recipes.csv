@@ -1,8 +1,5 @@
 Name,Ingredients,,,,Effect,Duration,Restore,Resist,Increase,Selling Price,
-Baked Apple,Apple,,,,Restore 0.75 hearts,-,Hearts,-,-,,"Please Help out
-by adding values
-to the ""Selling Price"" 
-column. Thanks!"
+Baked Apple,Apple,,,,Restore 0.75 hearts,-,Hearts,-,-,,
 Baked Palm Fruit,Palm Fruit,,,,Restore 1.5 hearts,-,Hearts,-,-,,
 Chilly Elixir,Cold Darner,Lizalfos Tail,,,,5:40,-,Heat,-,,
 Chilly Steamed Fish,Cool Safflina,Hyrule Bass,Hylian Shroom,,,3:30,-,Heat,-,,
@@ -36,6 +33,7 @@ Hasty Simmered Fruit,Apple,Fleet-Lotus Seeds,,,Restore 2 hearts,-,Hearts,Movemen
 Hasty Veggie Cream Soup,Swift Carrot,Fresh Milk,Rock Salt,,,-,-,Movement,-,,
 Hearty Fried Wild Greens,Hearty Radish,,,,Fully restore hearts and temporarily increase maximum hearts by 4,-,Hearts,-,Hearts,,
 Hearty Meat & Mushroom Skewer,Hearty Tuffle,Raw Meat,,,Fully restore hearts and temporarily increase maximum hearts by 3,-,Hearts,-,Hearts,,
+Hearty Mushroom Sewer,Hearty Truffle,Big Hearty Truffle,Big Hearty Truffle,Raw Prime Meat,Restore 10+ hearts,-,Hearts,-,-,,
 Hearty Mushroom Skewer,Hearty Truffle,,,,Fully restore hearts and temporarily increase maximum hearts by 1,-,Hearts,-,Hearts,,
 Hearty Omlet,Hearty Truffle,Bird Egg,,,Fully restore hearts and temporarily increase maximum hearts by 1,-,Hearts,-,Hearts,,
 Hearty Salt-Grilled Prime Meat,Hearty Truffle,Hearthy Radish x 2,Raw Prime Meat,Rock Sal,Fully restore hearts and temporarily increase maximum hearts by 7,-,Hearts,-,Hearts,,
