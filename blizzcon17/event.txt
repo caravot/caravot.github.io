@@ -1,0 +1,28 @@
+
+<article data-id='1371' data-franchise="blizzard" data-hours='1' data-left-offset='0.5' data-stage="2017.heroic" class="event" data-toggle="modal" data-target="#event-modal-1371">
+    <header>
+        <div class="event-details">
+            <div class="event-heading">
+                <h1>LoreCraft – The Art of Storytelling</h1>
+            </div>
+            <div class="event-timespan blizzcon-time">
+              <time datetime="2017-11-03T13:30:00-07:00" itemprop="startTime">1:30PM</time> -
+              <time datetime="2017-11-03T14:30:00-07:00" itemprop="endTime">2:30PM</time></div>
+            <div class="event-stage visible-xs">
+              <span>Hall A Lvl 2</span>
+            </div>
+        </div>
+        <div class="event-icons">
+            <a href="" data-id='1371'
+              data-name="LoreCraft – The Art of Storytelling"
+              class="event-favorite"></a>
+            <a href="https://blizzcon.com/en-us/watch?v=52fbe11-00d3447180c"
+              data-id='1371' data-start-time="2017-11-03T13:30:00-07:00"
+              data-end-time="2017-11-03T14:30:00-07:00"
+              data-vod-name="LoreCraft – The Art of Storytelling"
+              data-has-stream="data-has-stream"
+              class="event-play hidden">
+            </a>
+          </div>
+    </header>
+</article>
