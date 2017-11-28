@@ -4,7 +4,7 @@ import httplib
 import urllib
 from bs4 import BeautifulSoup
 
-for volume in range(10, 15):
+for volume in range(1, 15):
     print volume
     volume = str(volume)
     conn = httplib.HTTPConnection("m.mangafox.me")
