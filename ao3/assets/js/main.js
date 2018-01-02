@@ -38,9 +38,11 @@ function getData(category) {
       // new fandom
       if (name != fandom) {
         if (name != '') {
-          final.push({name: name, data: values.reverse() });
+          values = values.reverse();
 
-          createSingleChart({name: name, data: values.reverse() });
+          final.push({name: name, data: values });
+
+          createSingleChart({name: name, data: values });
         }
 
         // update fandom
@@ -51,8 +53,10 @@ function getData(category) {
       values.push(parseInt(csv_data[row_id][0]));
     }
 
+    values = values.reverse();
+
     // all data parsed; output main chart
-    createSingleChart({name: name, data: values.reverse()});
+    createSingleChart({name: name, data: values });
     createTopChart(final, category);
   });
 }
@@ -87,7 +91,7 @@ function createSingleChart(series) {
 
   $('<div id="SingleChart' + i + '">').appendTo($('#chart-tables'));
 
-  console.log(series.data);
+
   Highcharts.chart('SingleChart' + i, {
     title: {
       text: '#' + (i+1) + ' ' + series.name
