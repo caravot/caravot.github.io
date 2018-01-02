@@ -87,7 +87,7 @@ function createSingleChart(series) {
 
   $('<div id="SingleChart' + i + '">').appendTo($('#chart-tables'));
 
-  console.log(series.data);it
+  console.log(series.data);
   Highcharts.chart('SingleChart' + i, {
     title: {
       text: '#' + (i+1) + ' ' + series.name
