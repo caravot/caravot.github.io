@@ -1,0 +1,28 @@
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.sub-header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+.navbar-fixed-top {
+    border: 0;
+}
+.main {
+    padding: 20px;
+}
+@media (min-width: 768px) {
+    .main {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+}
+.main .page-header {
+    margin-top: 0;
+}
+
+.container-fluid {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
